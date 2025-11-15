@@ -1,9 +1,9 @@
-#✋ Sign Language Recognition using CNN & OpenCV
+#Sign Language Recognition using CNN & OpenCV
 Proyek ini merupakan aplikasi deteksi bahasa isyarat huruf A–Y menggunakan model CNN (grayscale 28×28) dan kamera laptop. Sistem mengambil area tangan pada kotak ROI (Region of Interest) yang berada tepat di tengah layar, kemudian memprediksi huruf secara real-time.
 
 Aplikasi ini cocok digunakan untuk pembelajaran bahasa isyarat atau tugas Computer Vision dasar.
 
-#🚀 Fitur Utama
+#Fitur Utama
 ✔ Deteksi bahasa isyarat real-time
 
 ✔ Kotak ROI otomatis di tengah layar
