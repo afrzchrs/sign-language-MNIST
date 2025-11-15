@@ -1,9 +1,9 @@
-✋ Sign Language Recognition using CNN & OpenCV
+#✋ Sign Language Recognition using CNN & OpenCV
 Proyek ini merupakan aplikasi deteksi bahasa isyarat huruf A–Y menggunakan model CNN (grayscale 28×28) dan kamera laptop. Sistem mengambil area tangan pada kotak ROI (Region of Interest) yang berada tepat di tengah layar, kemudian memprediksi huruf secara real-time.
 
 Aplikasi ini cocok digunakan untuk pembelajaran bahasa isyarat atau tugas Computer Vision dasar.
 
-🚀 Fitur Utama
+#🚀 Fitur Utama
 ✔ Deteksi bahasa isyarat real-time
 
 ✔ Kotak ROI otomatis di tengah layar
@@ -24,7 +24,7 @@ Normalisasi
 
 ✔ Jendela debug untuk melihat input ke model
 
-📦 Instalasi
+#📦 Instalasi
 Pastikan Python 3 sudah terpasang.
 
 Install dependensi:
@@ -34,7 +34,8 @@ Copy code
 pip install tensorflow
 pip install opencv-python
 pip install numpy
-📁 Struktur Proyek
+
+#📁 Struktur Proyek
 bash
 Copy code
 /project-folder
@@ -46,7 +47,7 @@ Copy code
 └── README.md
 Pastikan model .h5 berada di folder model/.
 
-▶ Cara Menjalankan
+#▶ Cara Menjalankan
 Pastikan webcam terhubung.
 
 Jalankan program:
@@ -60,14 +61,14 @@ Hasil prediksi akan tampil di layar.
 
 Tekan Q untuk keluar.
 
-🧠 Teknologi yang Digunakan
+#🧠 Teknologi yang Digunakan
 TensorFlow/Keras → memuat model CNN
 
 OpenCV → kamera + pengolahan gambar
 
 NumPy → pemrosesan array
 
-🔍 Cara Kerja Sistem
+#🔍 Cara Kerja Sistem
 Program membuka webcam.
 
 Kotak ROI (200×200 px) muncul di tengah layar.
